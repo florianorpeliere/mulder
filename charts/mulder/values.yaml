@@ -22,6 +22,8 @@ resources:
     cpu: 80m
     memory: 128Mi
 probePath: /
+redis:
+  usePassword: false
 livenessProbe:
   initialDelaySeconds: 60
   periodSeconds: 10
